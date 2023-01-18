@@ -22,6 +22,7 @@ body {
   background-image: url(../multimedia/imagenes-del-sitio/IGNACIOHOME1.jpg);
   height: 100vh;
 }
+
 .hero h2 {
   color: rgb(145, 132, 80);
 }
@@ -48,6 +49,7 @@ footer footer li {
   bottom: 15px;
   right: 30px;
 }
+
 .beatport-logo .beatport-logo img {
   width: 50px;
 }
@@ -58,9 +60,11 @@ footer footer li {
   display: flex;
   gap: 15px;
 }
+
 .cards .card {
   background-color: rgb(164, 22, 35);
 }
+
 .cards .card img {
   max-width: 100%;
 }
@@ -76,7 +80,7 @@ p.card-text {
   padding: 10px;
   row-gap: 30px;
   -moz-column-gap: 30px;
-       column-gap: 30px;
+  column-gap: 30px;
 }
 .grid .box.g-col-6.g-col-md-4 {
   background-color: rgb(164, 22, 35);
@@ -85,10 +89,12 @@ p.card-text {
 table {
   margin: 20px;
 }
+
 table table.table a {
   color: rgb(145, 132, 80);
   text-decoration: none;
 }
+
 table table.table a:active {
   color: rgb(164, 22, 35);
 }/*# sourceMappingURL=estilo.css.map */

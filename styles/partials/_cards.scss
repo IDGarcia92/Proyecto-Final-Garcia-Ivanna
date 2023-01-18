@@ -1,0 +1,19 @@
+.cards{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+
+    .card{
+        background-color: $color2;
+    }
+
+    .card img{
+        max-width: 100%;
+    }
+}
+
+p.card-text{
+    color: $color1;
+    font-size: 22px;
+}

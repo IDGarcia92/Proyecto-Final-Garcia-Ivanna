@@ -1,0 +1,15 @@
+footer{
+    background-color: $color1;
+
+    .footer-p{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+        footer li{
+            list-style: none;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+
+}

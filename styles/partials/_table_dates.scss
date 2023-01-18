@@ -1,0 +1,12 @@
+table{
+    margin: 20px;
+
+    table.table a{
+        color: $color1;
+        text-decoration: none;
+    }
+
+    table.table a:active{
+        color: $color2;
+    }
+}

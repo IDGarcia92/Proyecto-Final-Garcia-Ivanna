@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+.navbar {
+  background-color: rgb 46, 53, 50;
+}
+.navbar .navbar-brand {
+  color: rgb(145, 132, 80);
+}
+.navbar .nav-link a {
+  color: rgb(145, 132, 80);
+}
+
+.hero {
+  background-image: url(../multimedia/imagenes-del-sitio/IGNACIOHOME1.jpg);
+  height: 100vh;
+}
+.hero h2 {
+  color: rgb(145, 132, 80);
+}
+
+.carousel-item {
+  height: 80vh;
+}
+
+footer {
+  background-color: rgb(145, 132, 80);
+}
+footer .footer-p {
+  text-align: center;
+  padding-top: 20px;
+}
+footer footer li {
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.beatport-logo {
+  position: fixed;
+  bottom: 15px;
+  right: 30px;
+}
+.beatport-logo .beatport-logo img {
+  width: 50px;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 15px;
+}
+.cards .card {
+  background-color: rgb(164, 22, 35);
+}
+.cards .card img {
+  max-width: 100%;
+}
+
+p.card-text {
+  color: rgb(145, 132, 80);
+  font-size: 22px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  row-gap: 30px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.grid .box.g-col-6.g-col-md-4 {
+  background-color: rgb(164, 22, 35);
+}
+
+table {
+  margin: 20px;
+}
+table table.table a {
+  color: rgb(145, 132, 80);
+  text-decoration: none;
+}
+table table.table a:active {
+  color: rgb(164, 22, 35);
+}/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,11 @@
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    row-gap: 30px;
+    column-gap: 30px;
+
+    .box.g-col-6.g-col-md-4{
+        background-color: $color2;
+    }
+}

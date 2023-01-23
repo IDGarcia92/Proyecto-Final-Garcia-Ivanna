@@ -11,9 +11,11 @@ body {
 .navbar {
   background-color: rgb 46, 53, 50;
 }
+
 .navbar .navbar-brand {
   color: rgb(145, 132, 80);
 }
+
 .navbar .nav-link a {
   color: rgb(145, 132, 80);
 }
@@ -22,6 +24,7 @@ body {
   background-image: url(../multimedia/imagenes-del-sitio/IGNACIOHOME1.jpg);
   height: 100vh;
 }
+
 .hero h2 {
   color: rgb(145, 132, 80);
 }
@@ -36,6 +39,7 @@ body {
   display: flex;
   gap: 15px;
 }
+
 .cards .card {
   background-color: rgb(164, 22, 35);
 }
@@ -48,25 +52,28 @@ p.card-text {
   font-size: 22px;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
-  row-gap: 30px;
-  -moz-column-gap: 30px;
-       column-gap: 30px;
-}
 .grid .box.g-col-6.g-col-md-4 {
   background-color: rgb(164, 22, 35);
 }
 
+.box img{
+  width: 100%;
+}
+
+.box audio{
+  width: 100%;
+}
+
+
 table {
   margin: 20px;
 }
+
 table table.table a {
   color: rgb(145, 132, 80);
   text-decoration: none;
 }
+
 table table.table a:active {
   color: rgb(164, 22, 35);
 }
@@ -76,6 +83,7 @@ table table.table a:active {
   bottom: 15px;
   right: 30px;
 }
+
 .beatport-logo .beatport-logo img {
   width: 50px;
 }
@@ -83,10 +91,12 @@ table table.table a:active {
 footer {
   background-color: rgb(145, 132, 80);
 }
+
 footer .footer-p {
   text-align: center;
   padding-top: 20px;
 }
+
 footer footer li {
   list-style: none;
   padding: 10px;

@@ -82,14 +82,6 @@ p.card-text{
     font-size: 22px;
 }
 
-/*.grid{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-    row-gap: 30px;
-    column-gap: 30px;
-}*/
-
 .tracks .box{
     background-color: rgb(164, 22, 35);
 }
@@ -102,10 +94,6 @@ p.card-text{
     width: 100%;
 }
 
-/*.box.g-col-6.g-col-md-4{
-    background-color: rgb(164, 22, 35);
-}*/
-
 table.table a{
     color: rgb(145, 132, 80);
     text-decoration: none;
@@ -113,4 +101,14 @@ table.table a{
 
 table.table a:active{
     color:rgb(164, 22, 35);
+}
+
+@media only screen and (max-width: 500px){
+    .carousel-item{
+        height: auto;
+    }
+
+    .hero{
+        background-repeat: no-repeat;
+    }
 }
